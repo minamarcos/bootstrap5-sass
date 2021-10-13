@@ -11118,5 +11118,57 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-rounded {
+  position: relative;
+  font-weight: 600;
+  margin: 0;
+  padding: 0.9375rem 4.375rem 0.9375rem 1.2rem;
+}
+@media (max-width: 575.98px) {
+  .btn-rounded {
+    font-size: 1.5rem;
+    font-weight: 700;
+    left: 10%;
+    width: 80%;
+    margin: 0 0 10px 0;
+  }
+}
+.btn-rounded span {
+  position: absolute;
+  background-color: #9926f0;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 15px;
+  transform: translatey(-50%);
+  border-radius: 50%;
+}
+.btn-rounded span i {
+  color: #fff;
+  line-height: 2.5rem;
+  font-size: 1rem;
+}
+.btn-rounded:hover {
+  color: #9926f0;
+  font-weight: 600;
+}
+.btn-rounded:hover i {
+  color: #9926f0;
+}
+.btn-rounded:hover span {
+  background-color: #fff;
+  border: 2px solid #9926f0;
+}
+
+.menu {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+.menu li {
+  padding: 0.7rem;
+}
+.menu a {
+  color: #fff !important;
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=style.css.map */
