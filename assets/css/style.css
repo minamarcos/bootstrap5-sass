@@ -11118,6 +11118,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.display-2--intro {
+  height: 200px;
+  width: 200px;
+  border: red 1px solid;
+}
+
 .btn-rounded {
   position: relative;
   font-weight: 600;
@@ -11218,6 +11224,17 @@ textarea.form-control-lg {
 }
 .companies_logo-box img {
   height: 100%;
+}
+
+.footer {
+  background-color: #0099ff;
+  color: #fff;
+}
+.footer nav {
+  height: 60px;
+}
+.footer nav p {
+  line-height: 60px;
 }
 
 .Services-h2 {

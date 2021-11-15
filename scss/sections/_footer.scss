@@ -1,0 +1,12 @@
+@use "../custom" as *;
+
+.footer {
+  background-color: #0099ff;
+  color: $white;
+  nav {
+    height: 60px;
+    p {
+      line-height: 60px;
+    }
+  }
+}

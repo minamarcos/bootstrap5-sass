@@ -14,3 +14,13 @@
   right: 50%;
   transform: translate(-50%, -50%);
 }
+
+@mixin square($size, $color) {
+  height: $size;
+  width: $size;
+  border: $color 1px solid;
+}
+
+.display-2--intro {
+  @include square(200px, red);
+}
